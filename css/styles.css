@@ -103,7 +103,7 @@ html{
 
 /* banner-image */
 .banner-image{
-    background: url("/images/MainPortfolio.jpg") no-repeat top center;
+    background: url("/images/BGPortfolio.jpg") no-repeat top center;
     width: 100%;
     height: auto;
 	background-size: cover;

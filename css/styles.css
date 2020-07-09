@@ -127,3 +127,36 @@ p{
     margin-bottom: 15px;
 }
 /* /projects */
+
+/* Contact Me */
+.form-wrapper .form-input{
+	margin-bottom: 15px;
+}
+
+.form-wrapper .form-input input[type="text"]{
+	width: 250px;
+	padding: 12px 20px; 
+	border: 1px solid #ccc;
+}
+
+.form-wrapper .form-input textarea{
+	width: 250px;
+	padding: 12px 20px; 
+	height: 80px;
+	resize: none;
+	border: 1px solid  #ccc;
+}
+/* /Contact Me */
+
+/* Footer */
+.footer{
+	width: 100%;
+	text-align: center;
+	background: #444444;
+	padding: 20px 0;
+}
+
+.footer a{
+	color: #fff;
+}
+/* /Footer */

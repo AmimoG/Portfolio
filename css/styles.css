@@ -73,6 +73,33 @@ html{
     scroll-behavior: smooth;
 }
 /* Scroll */
+/* Media Queries */
+@media (max-width: 720px){
+
+	.navbar{
+		height: auto;
+		flex-direction: column;
+	}
+
+	.logo{
+		margin-bottom: 25px;
+	}
+
+	.navbar-items ul{
+		flex-direction: column;
+		text-align: center;
+	}
+
+	.navbar-items ul li{
+		margin-bottom:5px;
+	}
+
+	.banner-content{
+		margin-top: 35px;
+	}
+
+}
+/* /Media Queries */
 
 /* banner-image */
 .banner-image{

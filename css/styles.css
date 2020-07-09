@@ -1,10 +1,10 @@
-/* Style the navbar */
+
 #navbar {
     overflow: hidden;
     background-color: #333;
   }
   
-  /* Navbar links */
+
   #navbar a {
     float: left;
     display: block;
@@ -14,19 +14,34 @@
     text-decoration: none;
   }
   
-  /* Page content */
+
   .content {
     padding: 16px;
   }
   
-  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
   }
   
-  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+ 
   .sticky + .content {
     padding-top: 60px;
   }
+
+#Amimo .hero {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 50px;
+	justify-content: flex-start;
+}
+#Amimo h1 {
+	display: block;
+	width: fit-content;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal .5s ease forwards;
+	animation-delay: 1s;

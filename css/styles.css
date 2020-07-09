@@ -28,8 +28,8 @@ p{
     width: 180px;
     height: 35px;
     line-height: 35px;
-    border: 2px solid #fb2274;
-    color: #fb2274;
+    border: 2px solid darkslategrey;
+    color: darkslategrey;
     display: block;
     margin: 25px auto 0;
     text-align: center;
@@ -51,7 +51,7 @@ p{
 .logo a{
 	font-family: 'Allura', cursive;
 	font-size: 32px;
-	color: #fb2274;
+	color: darkolivegreen;
 }
 
 .navbar-items ul{
@@ -103,7 +103,9 @@ html{
 
 /* banner-image */
 .banner-image{
-	background: url("images/scooterstation1.jpeg") no-repeat top center;
+    background: url("/images/MainPortfolio.jpg") no-repeat top center;
+    width: 100%;
+    height: auto;
 	background-size: cover;
 	width: 100%;
 	height: 600px;
@@ -124,7 +126,7 @@ html{
 }
 
 .banner-content h1 span{
-	color: #fb2274;
+	color: darkolivegreen;
 }
 
 
@@ -157,7 +159,7 @@ html{
 }
 
 .diff-projects .diff-projects-item h3 {
-    color: #fb2274;
+    color: darkslategrey;
     margin-bottom: 15px;
 }
 /* /projects */

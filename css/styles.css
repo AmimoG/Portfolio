@@ -101,3 +101,29 @@ p{
 	text-align: center;
 	padding: 5% 10%;
 }
+
+/* Projects */
+.projects{
+	background: #f5f5f5;
+}
+
+.diff-projects {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.diff-projects .diff-projects-item {
+    width: 30%;
+}
+
+.diff-projects .diff-projects-item img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.diff-projects .diff-projects-item h3 {
+    color: #fb2274;
+    margin-bottom: 15px;
+}
+/* /projects */

@@ -46,6 +46,7 @@ p{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	background-color: darkolivegreen;
 }
 
 .logo a{

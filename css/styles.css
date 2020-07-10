@@ -1,4 +1,4 @@
-*{
+body{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -21,7 +21,7 @@ p{
 	margin-bottom: 15px;
 	font-size: 14px;
 	line-height: 20px;
-	color: #a9a9a9;
+	color: darkslategray;
 }
 
 .btn a {
@@ -101,9 +101,15 @@ html{
 }
 /* /Media Queries */
 
+/* body {
+	background-image: url("/images/MainPortfolio.jpg");
+	width: fit-content;
+	height: auto;
+  } */
+
 /* banner-image */
 .banner-image{
-    /* background: url("/images/BGPortfolio.jpg") no-repeat top center; */
+    background: url("/images/BGPortfolio.jpg") no-repeat top center;
     width: 100%;
     height: auto;
 	background-size: cover;
@@ -111,6 +117,7 @@ html{
 	justify-content: center;
 	align-items: center;
 }
+
 
 .banner-content{
 	text-align: center;
